@@ -38,7 +38,7 @@ app.listen(PORT, () => {
   console.log(`✅ Server running on port ${PORT}`);
 
   // Optional: set webhook automatically
-  const webhookUrl = `https://your-render-app-name.onrender.com/webhook`;
+  const webhookUrl = `https://web-venom-rend.onrender.com/webhook`;
   bot.setWebHook(webhookUrl);
   console.log(`🌐 Webhook set to: ${webhookUrl}`);
 });
