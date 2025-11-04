@@ -1,0 +1,14 @@
+{
+  "name": "telegram-webhook-server",
+  "version": "1.0.0",
+  "description": "A simple Express webhook server for Telegram bot",
+  "main": "webhook.js",
+  "scripts": {
+    "start": "node webhook.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "^1.20.3",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
